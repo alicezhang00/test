@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.kangwang{
+    width: 640px;
+    margin: 0 auto;
+}
+/*logo*/
+.kangwang .logo{
+    width: 560px;
+    padding:19px 40px 15px 40px;
+    background: #48a1dd;
+    float: left;
+}
+.kangwang .logo .logo1{
+    float: left;
+}
+.kangwang .logo .logo1 img{
+    float: left;
+}
+.kangwang .logo .logo2{
+    float: right;
+    line-height: 77px;
+}
+.kangwang .logo .logo2 .logo2_word{
+    display: block;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    float: left;
+}
+.kangwang .logo .logo2 img{
+    vertical-align: middle;
+}
+
+/*头部*/
+.kangwang .header{
+    width: 640px;
+    height: 63px;
+    background-image: url("../images/header_bg.png");
+    float: left;
+}
+.kangwang .header ul.list{
+    list-style: none;
+    width: 640px;
+    float: left;
+}
+.kangwang .header ul.list li{
+    list-style: none;
+    color:#ffffff;
+    font-family: "Microsoft YaHei";
+    font-size:25px;
+    float: left;
+    margin-top: 20px;
+}
+.kangwang .header ul.list li.index{
+    width: 78px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-left:35px;
+    padding-right:37px;
+    float: left;
+}
+.kangwang .header ul.list li.product{
+    width: 100px;
+    text-align: center;
+    padding-left:38px;
+    padding-right:32px;
+    float: left;
+}
+.kangwang .header ul.list li.activity{
+    width: 100px;
+    text-align: center;
+    padding-left:32px;
+    padding-right:32px;
+    float: left;
+}
+.kangwang .header ul.list li.lesson{
+    width: 100px;
+    text-align: center;
+    padding-left:28px;
+    padding-right:28px;
+    float: left;
+}
+
+/*tab切换*/
+.kangwang .tab{
+    width: 640px;
+    height: 57px;
+    background-color: #1e89d1;
+    float: left;
+}
+
+.kangwang .tab ul.tab_list{
+    list-style: none;
+    width: 640px;
+    float: left;
+}
+.kangwang .tab ul.tab_list li{
+    list-style: none;
+    color:#b1ddfb;
+    font-family: "Microsoft YaHei";
+    font-size:25px;
+    float: left;
+    margin-top: 16px;
+}
+.kangwang .tab ul.tab_list li.que1{
+    width: 108px;
+    text-align: center;
+    padding-left:96px;
+    float: left;
+}
+.kangwang .tab ul.tab_list li.que2{
+    width: 108px;
+    text-align: center;
+    padding-left:57px;
+    float: left;
+}
+.kangwang .tab ul.tab_list li.que3{
+    width: 108px;
+    text-align: center;
+    padding-left:59px;
+    float: left;
+}
